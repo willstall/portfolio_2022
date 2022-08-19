@@ -15,4 +15,14 @@
       {{ end }}
     </div>
   </main>
+
+  <div class="featured">
+    <h3>Featured</h3>
+     <ul>
+     {{ range where .Site.RegularPages "Params.homepage" true }}   
+         <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+         </li>
+         {{ end }}
+     </ul>
+ </div>  
 {{ end }}
