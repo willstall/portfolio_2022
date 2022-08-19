@@ -52,6 +52,7 @@ sudo apt-get install libcanberra-gtk-module:i386        // might need this if st
 ## Hugo Theme Inspo
 https://github.com/zerostaticthemes/hugo-whisper-theme      ( documentation )
 https://themes.gohugo.io/themes/hugo-winston-theme/         ( general presentation )
+https://gohugo.io/templates/lists/
 
 ## Didn't make the framework cut
 https://demo.vercel.blog/

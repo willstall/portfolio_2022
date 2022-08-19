@@ -9,4 +9,14 @@
     </a>
 </p>
 {{ end }}
+
+<div class="featured">
+    <h3>Featured Posts</h3>
+    <ul>
+      {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
 {{ end }}
