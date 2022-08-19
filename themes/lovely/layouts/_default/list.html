@@ -1,5 +1,19 @@
 {{ define "main" }}
+
 <h1>{{ .Title }}</h1>
+
+{{ range first 1 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
+<div class="featured">
+   <h3>Featured</h3>
+    <ul>
+      {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+</div>
+{{ end }}
+
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
     <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -10,13 +24,6 @@
 </p>
 {{ end }}
 
-<div class="featured">
-    <h3>Featured Posts</h3>
-    <ul>
-      {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
-        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-        </li>
-      {{ end }}
-    </ul>
-  </div>
+
+
 {{ end }}
