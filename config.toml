@@ -6,3 +6,8 @@ sectionPagesMenu = "main"
 
 themesDir = "themes"
 theme = "lovely"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"

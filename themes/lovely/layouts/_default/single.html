@@ -1,6 +1,17 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
-<br><br>
 {{ .Content }}
+{{ partial "sections.html" . }}
+
+<br/><br/><br/><br/>
+<ul>
+    {{ range (.GetTerms "series") }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+</ul>
+<br/><br/><br/><br/>
+
+<h1>TESTING</h1>
+{{ partial "taxonomies.html" . }}
 {{ end }}
