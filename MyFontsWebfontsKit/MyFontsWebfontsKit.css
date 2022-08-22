@@ -1,0 +1,102 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaLTWXX-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-regular/
+ * Copyright: Copyright © 2014 Monotype Imaging Inc. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Incn*/
+
+
+
+  
+@font-face {
+  font-family: "GilroyLight";
+  src: url('webFonts/GilroyLight/font.woff2') format('woff2'), url('webFonts/GilroyLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyLightItalic";
+  src: url('webFonts/GilroyLightItalic/font.woff2') format('woff2'), url('webFonts/GilroyLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyThin";
+  src: url('webFonts/GilroyThin/font.woff2') format('woff2'), url('webFonts/GilroyThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyUltraLight";
+  src: url('webFonts/GilroyUltraLight/font.woff2') format('woff2'), url('webFonts/GilroyUltraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyBoldItalic";
+  src: url('webFonts/GilroyBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroyBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url('webFonts/GilroyExtraBold/font.woff2') format('woff2'), url('webFonts/GilroyExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyExtraBoldItalic";
+  src: url('webFonts/GilroyExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroyExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroySemiBoldItalic";
+  src: url('webFonts/GilroySemiBoldItalic/font.woff2') format('woff2'), url('webFonts/GilroySemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyThinItalic";
+  src: url('webFonts/GilroyThinItalic/font.woff2') format('woff2'), url('webFonts/GilroyThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyMedium";
+  src: url('webFonts/GilroyMedium/font.woff2') format('woff2'), url('webFonts/GilroyMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyBlack";
+  src: url('webFonts/GilroyBlack/font.woff2') format('woff2'), url('webFonts/GilroyBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyHeavyItalic";
+  src: url('webFonts/GilroyHeavyItalic/font.woff2') format('woff2'), url('webFonts/GilroyHeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyRegular";
+  src: url('webFonts/GilroyRegular/font.woff2') format('woff2'), url('webFonts/GilroyRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyRegularItalic";
+  src: url('webFonts/GilroyRegularItalic/font.woff2') format('woff2'), url('webFonts/GilroyRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyBold";
+  src: url('webFonts/GilroyBold/font.woff2') format('woff2'), url('webFonts/GilroyBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyUltraLightItalic";
+  src: url('webFonts/GilroyUltraLightItalic/font.woff2') format('woff2'), url('webFonts/GilroyUltraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyBlackItalic";
+  src: url('webFonts/GilroyBlackItalic/font.woff2') format('woff2'), url('webFonts/GilroyBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyHeavy";
+  src: url('webFonts/GilroyHeavy/font.woff2') format('woff2'), url('webFonts/GilroyHeavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroyMediumItalic";
+  src: url('webFonts/GilroyMediumItalic/font.woff2') format('woff2'), url('webFonts/GilroyMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url('webFonts/GilroySemiBold/font.woff2') format('woff2'), url('webFonts/GilroySemiBold/font.woff') format('woff');
+}
+
