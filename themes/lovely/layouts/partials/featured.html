@@ -1,0 +1,11 @@
+{{ $features := where .Pages "Params.featured" true  }}
+{{ if $features }}
+<div class="featured">
+    <h2>Featured {{ .Title | humanize }}</h2>
+    <ul>
+        {{ range $features }}
+        {{ partial "preview.html" . }}
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

@@ -1,31 +1,54 @@
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
+<!-- {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }} -->
+<!-- {{ $pages := where site.RegularPages "Type" "in" .Page.Params.mainSections }} -->
 
 
-{{ $features := where .Pages "Params.featured" true  }}
 
-{{ if $features }}
-<div class="featured">
-    <h3>Featured {{ .Title }}</h3>
-    <ul>
-        {{ range $features }}
-        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
-        {{ end }}
-    </ul>
-</div>
+
+
+<!-- {{ partial "featured.html" . }} -->
+
+<!-- {{ $pages := where .Pages "Kind" "page" }}
+<h1>Primary</h1>
+{{ range $pages }}
+<ul>
+{{ partial "preview.html" . }}
+</ul>
+{{ end }} -->
+
+<!-- {{ partial "sections.html" . }} -->
+
+{{ $currentPage := .CurrentSection }}
+<ul>
+{{ range (where .RegularPagesRecursive "Params.featured" true ) }}
+    <li><a href="{{ .RelPermalink }}">
+    {{ if eq $currentPage .CurrentSection }}
+    {{ .Title }}
+    {{ else }}
+    {{ .Parent.Title }} - {{ .Title }}
+    {{ end }}
+    </a></li>
 {{ end }}
+</ul>
 
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-    <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ partial "metadata.html" . }}
-    <a class="summary" href="{{ .RelPermalink }}">
-        <p>{{ .Summary }}</p>
-    </a>
-</p>
-{{ end }}
+<!-- {{ range (where .Site.Pages "Params.featured" true ) }}
+{{ .Title }}
+{{ end }} -->
 
-
+<!-- {{ range .Sections }}
+    {{ $features := where .Pages "Params.featured" true  }}
+    {{ if $features }}
+    <div class="featured">
+        <h2>Featured {{ .Title | humanize }}</h2>
+        <ul>
+            {{ range $features }}
+            {{ partial "preview.html" . }}
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+{{ end }} -->
 
 {{ end }}

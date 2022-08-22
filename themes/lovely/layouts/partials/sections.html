@@ -1,0 +1,8 @@
+{{ range .Sections }}
+    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <ul>
+    {{ range .Pages.ByPublishDate.Reverse }}
+    {{ partial "preview.html" . }}
+    {{ end }}
+    </ul>
+{{ end }}

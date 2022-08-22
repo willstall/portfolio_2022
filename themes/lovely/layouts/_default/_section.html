@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>ugh - {{ .Title }}</h1>
+  <main>
+      {{ .Content }}
+          <ul class="contents">
+          {{ range .Paginator.Pages }}
+              <li>{{.Title}}
+                  <div>
+                  </div>
+              </li>
+          {{ end }}
+          </ul>
+  </main>
+{{ end }}
