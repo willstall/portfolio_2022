@@ -1,8 +1,11 @@
+{{ if .Sections }}
+<h2>Collections</h2>
 {{ range .Sections }}
-    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     <ul>
     {{ range .Pages.ByPublishDate.Reverse }}
     {{ partial "preview.html" . }}
     {{ end }}
     </ul>
+{{ end }}
 {{ end }}
