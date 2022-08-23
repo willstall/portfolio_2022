@@ -7,26 +7,27 @@ body{
     box-sizing: border-box;
 }
 
-ul{
+nav ul{
     display: inline-flex;
     list-style: none;
 }
 
-li{
+nav li{
     margin: 0 1em 0 1em;
 }
-li:first-child
+nav li:first-child
 {
     margin-left: 0;
 }
-li:last-child
+nav li:last-child
 {
     margin-right:0;
 }
 
-ul .vertical
+nav ul .vertical
 {
-    flex-direction: column;
+    border: 1px solid green;
+    flex-direction: column !important;
 }
 
 .body
@@ -64,4 +65,30 @@ ul .vertical
 #top
 {
     background-color: rgb(240, 240, 240);
+}
+
+
+
+
+
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+p{
+    
 }

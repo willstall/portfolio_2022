@@ -5,7 +5,7 @@
 <h1>{{ .Title }}</h1>
 {{ $pages := where .Pages "Kind" "page" }}
 {{ range $pages }}
-<ul>
+<ul class="vertical">
 {{ partial "preview.html" . }}
 </ul>
 {{ end }}
