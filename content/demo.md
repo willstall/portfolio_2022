@@ -22,6 +22,8 @@ draft: true
 Here's a sentence with a footnote. [^1]
 Here's a sentence with *yet another footnote*. [^2]
 
+### Blockqoute
+> If you want to stay up to date on my art, I post here on [Instagram](http://instagram.com/willstall)
 
 ### Fenced Code
 
@@ -33,9 +35,23 @@ Here's a sentence with *yet another footnote*. [^2]
 }
 ```
 
+### Goat
+```goat
+      .               .                .               .--- 1          .-- 1     / 1
+     / \              |                |           .---+            .-+         +
+    /   \         .---+---.         .--+--.        |   '--- 2      |   '-- 2   / \ 2
+   +     +        |       |        |       |    ---+            ---+          +
+  / \   / \     .-+-.   .-+-.     .+.     .+.      |   .--- 3      |   .-- 3   \ / 3
+ /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
+ 1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
+
+```
+
 ### Table
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
+
+
 
