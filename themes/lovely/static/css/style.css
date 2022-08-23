@@ -20,17 +20,12 @@ footer
 {
     flex-shrink:0;
 }
-section,section ul
-{
-    margin: 1em 0em 1em 0em;
-    max-width:500px;
-}
-
 nav ul{
     display: flex;
     list-style: none;
     align-items:center;
     justify-content:stretch;
+    margin: 0;
 }
 nav li{
     margin: 0 1em 0 1em;
@@ -130,27 +125,29 @@ a:hover
     text-decoration: underline;
 }
 
-h1{
-
+section
+{
+    margin: 2.0em 0em 2.0em 0em;
+    max-width:500px;
 }
-h2{
-
+article
+{
+    margin: 1.0em 0em 1.0em 0em;   
 }
-h3{
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,ul{
+    margin: 1.0em 0em 1.0em 0em;
 }
-h4{
-
+li{
+    margin: 0.5em 0em 0.5em 0em; 
 }
-h5{
-
+section ul{
+    list-style: none;
+    /* margin-left:0.5em; */
 }
-h6{
-
-}
-p{
-
-}
-
-
 /* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */

@@ -6,29 +6,32 @@
 </section>
 
 {{ $pages := where .Pages "Kind" "page" }}
-<section>
+<!-- <section> -->
     <ul class="vertical">
         {{ range $pages }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
     </ul>
-</section>
+<!-- </section> -->
 
 <!-- {{ partial "sections.html" . }} -->
 
 
 {{ if .Sections }}
+
+<section>
 <h2>Series</h2>
 {{ range .Sections }}
-<section>
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    <ul>
-        {{ range .Pages.ByPublishDate.Reverse }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-    </ul>
-</section>
+    <article>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <ul>
+            {{ range .Pages.ByPublishDate.Reverse }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </article>
 {{ end }}
+</section>
 {{ end }}
 
 <!-- {{ partial "taxonomies.html" . }} -->
