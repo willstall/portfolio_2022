@@ -1,10 +1,10 @@
 ---
-slug: "/"
+# slug: "/"
 title: "About"
 subtitle: "Here I am"
 date: 2022-08-19T13:33:40-04:00
 type: "single"
-# menu: "main"
+menu: "main"
 draft: true
 ---
 
