@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;  
-    border:1px solid rgba(0,0,0,0.1);  
+    /* border:1px solid rgba(0,0,0,0.1);   */
 }
 body{
     box-sizing: border-box;
@@ -279,7 +279,7 @@ h2 strong,h3 strong,h4 strong{
 code{
     background-color: rgb(246, 246, 246);
     border:1px solid rgb(239, 239, 239);
-    width:100%;
+    width:calc(100%-2px);
     display: block;
     padding:1.0em;
     border-radius: 0.33em;
@@ -299,6 +299,15 @@ main img{
     padding: 1.0em;
 }
 
-
+blockquote
+{
+    background-color: rgb(246, 246, 246);
+    border:1px solid rgb(239, 239, 239);
+    border-left: 5px solid rgb(111, 237, 218);
+    width:calc(100%-6px);
+    display: block;
+    padding:1.0em;
+    border-radius: 0.0em 0.33em 0.33em 0.0em;    
+}
 
 /* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
