@@ -7,10 +7,19 @@
 {{ define "main" }}
 <!-- <h1>{{ .Title }}</h1> -->
 <!-- {{ partial "metadata.html" . }} -->
-<section>
-    {{ .Content }}
-    {{ partial "sections.html" . }}
-</section>
+
+<div>
+    <section>
+        {{ .Content }}
+        {{ partial "sections.html" . }}
+    </section>
+</div>
+
+<div>
+    <aside>
+        {{ .TableOfContents }}
+    </aside>
+</div>
 
 {{ .Section }}
 <ul>

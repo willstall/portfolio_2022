@@ -17,7 +17,7 @@ draft: true
 
 [^1]: This is the footnote.
 [^2]: This is the footnote.
-### Footnote2
+### Footnotes
 Here's a sentence with a footnote. [^1]
 Here's a sentence with *yet another footnote*. [^2]
 

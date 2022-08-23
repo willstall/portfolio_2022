@@ -6,13 +6,15 @@
 </section>
 
 {{ $pages := where .Pages "Kind" "page" }}
-<!-- <section> -->
-    <ul class="vertical">
-        {{ range $pages }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-    </ul>
-<!-- </section> -->
+<section>
+    <aside>
+        <ul class="vertical">
+            {{ range $pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    <aside>
+</section>
 
 <!-- {{ partial "sections.html" . }} -->
 
