@@ -1,13 +1,13 @@
 ---
 # slug: "/about/"
 # summary : ""
-linktitle : "About"
-weight: 10
+# linktitle : "About"
+# weight: 10
 title: "WillStall"
 subtitle: "Creative Engineer"
 description: ""
 date: 2022-08-19T13:33:40-04:00
-menu: "main"
+# menu: "main"
 draft: true
 ---
 
