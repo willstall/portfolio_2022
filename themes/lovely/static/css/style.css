@@ -162,7 +162,10 @@ p{
     font-size: 0.95em;
     letter-spacing: 0.033em;    
     line-height: 1.7em;
-    color:rgb(81, 81, 81);
+    color:rgb(97, 97, 97);
+}
+p em{
+    color:rgb(32, 32, 32);
 }
 h1{
     font-family: GilroyThin;
