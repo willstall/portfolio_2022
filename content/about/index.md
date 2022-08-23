@@ -11,12 +11,15 @@ menu: "main"
 draft: true
 ---
 
+![alt text](http://willstall.com/img/cp-logo.png)
+
 # **By day I work at [Cipher Prime](https://www.cipherprime.com)**, Philadelphia's *most* Philly game studio.
 	
-I started [Cipher Prime](https://www.cipherprime.com) with [Dain Saint](https://www.daintsaint.com) over 10 years ago. *Since then, it has helped me achieve so many dreams.* We've recieved an Apple Hall of Fame Award, Communication Arts Distinction, and quite a few other accolades. I've even had the honor of being in publications like the Inquirer, Wired Magazine, Kotaku, Ars Technica, etc. Someone even let me put a game on a PS4.
+I started [Cipher Prime](https://www.cipherprime.com) with [Dain Saint](https://www.daintsaint.com) over 10 years ago. *Since then, it has helped me achieve so many dreams.* We've recieved an Apple Hall of Fame Award, Communication Arts Distinction, and quite a few other accolades. I've even had the honor of being in publications like the Inquirer, Wired Magazine, Kotaku, Ars Technica, etc. **Someone even let me put a game on a PS4.**
 
 # **By night**, I'm a *passionate creator* just waiting to backflip into your heart.
 
+---
 
 ## Developer
 Ever since I was a 13 year old tot, developing has been one of my biggest hobbies. *Throwing code around has allowed me to create unique experiences* that I couldn't create any other way like our recent art show [We've Traveled So Far](http://www.wevetraveledsofar.com/).

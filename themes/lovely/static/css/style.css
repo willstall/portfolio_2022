@@ -54,6 +54,7 @@ nav.indicator a.active{
 }
 nav a
 {
+    font-family: GilroyRegular;
     color:rgb(81, 81, 81);
     text-decoration: none !important;
 }
@@ -157,6 +158,9 @@ section ul{
 body{
     font-family: GilroyRegular;
 }
+a{
+    font-family: GilroyMedium;
+}
 p{
     font-family: GilroyRegular;
     font-size: 0.95em;
@@ -165,6 +169,11 @@ p{
     color:rgb(97, 97, 97);
 }
 p em{
+    font-family: GilroyMedium;
+    color:rgb(32, 32, 32);
+}
+p strong{
+    font-family: GilroyMedium;
     color:rgb(32, 32, 32);
 }
 h1{
@@ -225,3 +234,11 @@ h2 strong,h3 strong,h4 strong{
     text-transform: uppercase;
 }
 /* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
+
+
+/* floating img */
+main img{
+    float:right;
+    clear:both;
+    padding: 1.0em;
+}
