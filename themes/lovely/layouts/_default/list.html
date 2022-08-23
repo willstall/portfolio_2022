@@ -1,29 +1,36 @@
 {{ define "main" }}
 
 <!-- {{ partial "featured.html" . }} -->
+<section>
+    {{ .Content }}
+</section>
 
-<!-- {{ $pages := where .Pages "Kind" "page" }}
-{{ range $pages }}
-<ul class="vertical">
-{{ partial "preview.html" . }}
-</ul>
-{{ end }} -->
+{{ $pages := where .Pages "Kind" "page" }}
+<section>
+    <ul class="vertical">
+        {{ range $pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</section>
 
 <!-- {{ partial "sections.html" . }} -->
 
 
-<!-- {{ if .Sections }}
+{{ if .Sections }}
 <h2>Series</h2>
 {{ range .Sections }}
+<section>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     <ul>
-    {{ range .Pages.ByPublishDate.Reverse }}
-    <li></li>
-    {{ end }}
+        {{ range .Pages.ByPublishDate.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
     </ul>
+</section>
 {{ end }}
-{{ end }} -->
+{{ end }}
 
-{{ partial "taxonomies.html" . }}
+<!-- {{ partial "taxonomies.html" . }} -->
 
 {{ end }}

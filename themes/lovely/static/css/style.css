@@ -20,13 +20,18 @@ footer
 {
     flex-shrink:0;
 }
+section,section ul
+{
+    margin: 1em 0em 1em 0em;
+    max-width:500px;
+}
+
 nav ul{
     display: flex;
     list-style: none;
     align-items:center;
     justify-content:stretch;
 }
-
 nav li{
     margin: 0 1em 0 1em;
 }
