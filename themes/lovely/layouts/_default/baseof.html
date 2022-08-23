@@ -2,7 +2,7 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        <div id="top" class="body">
+        <header id="top" class="body">
             <div class="container">
                 <div id="navigation">
                     {{ partial "logo" . }}
@@ -10,12 +10,16 @@
                 </div>
                 {{- block "cover" . }}{{- end }}
             </div>
-        </div>
-        <div id="bottom" class="body">
+        </header>
+        <main id="bottom" class="body">
             <div class="container">
                 {{- block "main" . }}{{- end }}
-                {{- partial "footer.html" . -}}
             </div>
-        </div>
+        </main>
+        <footer class="body">
+            <div class="container">
+                <p>Copyright (c) {{ now.Format "2006"}} willstall</p>
+            </div>
+        </footer>
     </body>
 </html>

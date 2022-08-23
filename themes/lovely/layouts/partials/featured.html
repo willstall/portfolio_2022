@@ -1,12 +1,10 @@
 {{ $currentPage := .CurrentSection }}
 {{ $features := (where .RegularPagesRecursive "Params.featured" true ) }}
 {{ if $features }}
-<div class="featured">
-    <h2>Featured {{ .Title | humanize }}</h2>
-    <ul>
-    {{ range $features }}
-        <li><a href="{{ .RelPermalink }}">{{ if eq $currentPage .CurrentSection }}{{ .Title }}{{ else }}{{ .Parent.Title }} - {{ .Title }}{{ end }}</a></li>
-    {{ end }}
-    </ul>
-</div>
+<h2>Featured {{ .Title | humanize }}</h2>
+<ul>
+{{ range $features }}
+    <li><a href="{{ .RelPermalink }}">{{ if eq $currentPage .CurrentSection }}{{ .Title }}{{ else }}{{ .Parent.Title }} - {{ .Title }}{{ end }}</a></li>
+{{ end }}
+</ul>
 {{ end }}

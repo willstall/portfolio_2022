@@ -5,8 +5,21 @@
 body{
     font-family: GilroyRegular;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
-
+html,body
+{
+    height:100%;
+}
+main
+{
+    flex:1 0 auto;
+}
+footer
+{
+    flex-shrink:0;
+}
 nav ul{
     display: flex;
     list-style: none;
@@ -24,12 +37,6 @@ nav li:first-child
 nav li:last-child
 {
     margin-right:0;
-}
-
-nav ul .vertical
-{
-    border: 1px solid green;
-    flex-direction: column !important;
 }
 
 nav.indicator
@@ -60,7 +67,6 @@ nav a.active
     opacity:1.0 !important;
     font-family: GilroyBold;
 }
-
 
 .body
 {
@@ -102,7 +108,6 @@ nav a.active
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
 }
 
-
 /* https://feathericons.com/ */
 
 a{
@@ -141,3 +146,6 @@ h6{
 p{
 
 }
+
+
+/* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
