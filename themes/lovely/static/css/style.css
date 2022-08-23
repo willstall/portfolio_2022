@@ -7,13 +7,26 @@ body{
     box-sizing: border-box;
 }
 
-nav ul{
+ul{
     display: inline-flex;
     list-style: none;
 }
 
-nav li{
-    margin: 0em 1em 0em 1em;
+li{
+    margin: 0 1em 0 1em;
+}
+li:first-child
+{
+    margin-left: 0;
+}
+li:last-child
+{
+    margin-right:0;
+}
+
+ul .vertical
+{
+    flex-direction: column;
 }
 
 .body
