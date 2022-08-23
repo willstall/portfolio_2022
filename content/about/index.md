@@ -3,6 +3,7 @@
 # summary : ""
 linktitle : "About"
 # weight: 10
+weight: 5
 title: "WillStall"
 subtitle: "Creative Engineer"
 description: ""

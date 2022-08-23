@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0;    
+    padding: 0;  
+    border:1px solid rgba(0,0,0,0.1);  
 }
 body{
     box-sizing: border-box;
@@ -162,7 +163,8 @@ main .container
 aside{
     /* position: absolute; */
     /* left:40%; */
-    margin: 2.0em 0em 2.0em 0em;    
+    margin: 2.0em 0em 2.0em 0em; 
+    /* border: 1px solid green; */
 }
 
 section

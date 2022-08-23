@@ -52,6 +52,7 @@ sudo apt-get install libcanberra-gtk-module:i386        // might need this if st
 ## Hugo Theme Inspo
 https://github.com/zerostaticthemes/hugo-whisper-theme      ( documentation )
 https://themes.gohugo.io/themes/hugo-winston-theme/         ( general presentation )
+https://gohugo.io/templates/lists/
 
 ## Didn't make the framework cut
 https://demo.vercel.blog/
@@ -85,5 +86,4 @@ Just listen to things people have grammed or tweeted at you. What are they askin
 
 * Full Site Takeover - for generative pieces
 https://discourse.gohugo.io/t/what-is-a-better-way-to-include-a-full-external-html-page-and-its-resources-into-blog/9287
-
 
