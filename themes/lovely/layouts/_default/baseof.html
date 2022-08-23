@@ -2,10 +2,20 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        <nav class="header_menu">{{ partial "nav" . }}</nav>
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+        <div id="top" class="body">
+            <div class="container">
+                <div id="navigation">
+                    {{ partial "logo" . }}
+                    {{ partial "nav" . }}
+                </div>
+                {{- block "cover" . }}{{- end }}
+            </div>
         </div>
-        {{- partial "footer.html" . -}}
+        <div id="bottom" class="body">
+            <div class="container">
+                {{- block "main" . }}{{- end }}
+                {{- partial "footer.html" . -}}
+            </div>
+        </div>
     </body>
 </html>

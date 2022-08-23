@@ -1,11 +1,7 @@
-<ul>
-{{ range .Site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name }} </a></li>
-{{ end }}
-</ul>
-
-<ul>
-{{ range .Site.Menus.featured }}
-        <li><a href="{{ .URL }}">{{ .Name }} </a></li>
-{{ end }}
-</ul>
+<nav>
+        <ul>
+        {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }} </a></li>
+        {{ end }}
+        </ul>
+</nav>
