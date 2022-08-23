@@ -64,13 +64,28 @@ nav ul .vertical
 }
 #top
 {
-    background-color: rgb(240, 240, 240);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
 }
 
 
+/* https://feathericons.com/ */
 
-
-
+a{
+    color:black;
+}
+a:hover
+{
+    font-weight: 600;
+}
+a:link, a:visited
+{
+    text-decoration: none;
+}
+a:active
+{
+    color:hotpink;
+}
 h1{
 
 }
@@ -90,5 +105,5 @@ h6{
 
 }
 p{
-    
+
 }
