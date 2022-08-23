@@ -3,7 +3,6 @@
     padding: 0;    
 }
 body{
-    font-family: GilroyRegular;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -55,6 +54,7 @@ nav.indicator a.active{
 }
 nav a
 {
+    color:rgb(81, 81, 81);
     text-decoration: none !important;
 }
 nav a:hover,nav a:active{
@@ -110,11 +110,11 @@ nav a.active
 
 /* https://feathericons.com/ */
 
+h1 a, h2 a, h3 a{ 
+    color: rgb(111, 237, 218);  
+}
 a{
-    font-family: "GilroyRegular";
-    font-size: 0.9em;
-    letter-spacing: 0.033em;
-    color:rgb(81, 81, 81);
+    color: rgb(86, 198, 181);
 }
 a:link, a:visited
 {
@@ -140,7 +140,11 @@ h3,
 h4,
 h5,
 h6,
-p,ul{
+p{
+    color:rgb(53, 53, 53);
+    margin: 1.0em 0em 1.0em 0em;   
+}
+ul{
     margin: 1.0em 0em 1.0em 0em;
 }
 li{
@@ -149,5 +153,72 @@ li{
 section ul{
     list-style: none;
     /* margin-left:0.5em; */
+}
+body{
+    font-family: GilroyRegular;
+}
+p{
+    font-family: GilroyRegular;
+    font-size: 0.95em;
+    letter-spacing: 0.033em;    
+    line-height: 1.7em;
+    color:rgb(81, 81, 81);
+}
+h1{
+    font-family: GilroyThin;
+    font-size: 2.5em;
+    line-height: 1.2em;    
+}
+h1 strong{
+    font-family:GilroyLight;
+    color:rgb(15, 15, 15);
+}
+h2{
+    font-family: GilroyLight;
+    font-size: 1.75em;
+    line-height: 1.125em;   
+    letter-spacing: 0.033em;   
+}
+h2 strong{
+    font-family:GilroyRegular;
+    color:rgb(15, 15, 15);
+}
+h2 em
+{
+    font-family:GilroyThin;  
+}
+h3{
+    font-family: GilroyLight;
+    font-size: 1.0em;
+    line-height: 1.7em;   
+    letter-spacing: 0.033em;  
+}
+h3 strong{
+    font-family:GilroyRegular;
+    color:rgb(15, 15, 15);
+}
+h3 em
+{
+    font-family:GilroyThin;  
+}
+h4{
+    font-family: GilroyMedium;
+    font-size: 0.75em;
+    line-height: 1.125em;   
+    letter-spacing: 0.033em;   
+}    
+h4 strong{
+    color:rgb(15, 15, 15);
+}
+h4 em
+{
+    font-family:GilroyRegular;  
+}
+h1 em,h2 em,h3 em,h4 em{
+    color:rgb(135, 135, 135);  
+}
+/* h1 strong, */
+h2 strong,h3 strong,h4 strong{
+    text-transform: uppercase;
 }
 /* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
