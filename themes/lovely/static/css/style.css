@@ -50,7 +50,7 @@ nav a
 {
     text-decoration: none !important;
 }
-nav a:hover{
+nav a:hover,nav a:active{
     opacity:0.5;
 }
 nav a.active
