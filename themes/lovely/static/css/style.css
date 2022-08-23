@@ -44,7 +44,23 @@ nav.indicator a{
 }
 nav.indicator a.active{
     background-color:rgb(81, 81, 81);
+    text-decoration: none; 
 }
+nav a
+{
+    text-decoration: none !important;
+}
+nav a:hover{
+    opacity:0.5;
+}
+nav a.active
+{
+    text-decoration: none;
+    cursor: default; 
+    opacity:1.0 !important;
+    font-family: GilroyBold;
+}
+
 
 .body
 {
@@ -95,23 +111,15 @@ a{
     letter-spacing: 0.033em;
     color:rgb(81, 81, 81);
 }
-a:hover
-{
-    color:black;
-    text-decoration: underline !important;
-}
 a:link, a:visited
 {
     text-decoration: none;
 }
-a:active
+a:hover
 {
-    color:hotpink;
+    text-decoration: underline;
 }
-a.active
-{
-    font-family: GilroyBold;
-}
+
 h1{
 
 }
