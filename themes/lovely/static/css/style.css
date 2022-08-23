@@ -8,8 +8,10 @@ body{
 }
 
 nav ul{
-    display: inline-flex;
+    display: flex;
     list-style: none;
+    align-items:center;
+    justify-content:stretch;
 }
 
 nav li{
@@ -30,6 +32,20 @@ nav ul .vertical
     flex-direction: column !important;
 }
 
+nav.indicator
+{
+    position:absolute;
+    top:0px;
+    height:2px;
+    overflow:hidden;
+}
+nav.indicator a{
+    color: transparent;
+}
+nav.indicator a.active{
+    background-color:rgb(81, 81, 81);
+}
+
 .body
 {
     display:flex;
@@ -42,6 +58,7 @@ nav ul .vertical
     width: 100%;
     max-width:760px;
     margin: 2em 0em 2em 0em;
+    /* for testing */
 }
 .footer
 {
@@ -52,6 +69,7 @@ nav ul .vertical
     display:flex;
     width: 100%;
     justify-content:space-between;
+    align-items:stretch;
 }
 
 #cover{
@@ -72,11 +90,15 @@ nav ul .vertical
 /* https://feathericons.com/ */
 
 a{
-    color:black;
+    font-family: "GilroyRegular";
+    font-size: 0.9em;
+    letter-spacing: 0.033em;
+    color:rgb(81, 81, 81);
 }
 a:hover
 {
-    font-weight: 600;
+    color:black;
+    text-decoration: underline !important;
 }
 a:link, a:visited
 {
@@ -85,6 +107,10 @@ a:link, a:visited
 a:active
 {
     color:hotpink;
+}
+a.active
+{
+    font-family: GilroyBold;
 }
 h1{
 
