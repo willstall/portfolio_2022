@@ -233,8 +233,22 @@ h1 em,h2 em,h3 em,h4 em{
 h2 strong,h3 strong,h4 strong{
     text-transform: uppercase;
 }
-/* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
 
+code{
+    background-color: rgb(246, 246, 246);
+    border:1px solid rgb(239, 239, 239);
+    width:100%;
+    display: block;
+    padding:1.0em;
+    border-radius: 0.33em;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 0.5em;
+}
 
 /* floating img */
 main img{
@@ -242,3 +256,7 @@ main img{
     clear:both;
     padding: 1.0em;
 }
+
+
+
+/* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
