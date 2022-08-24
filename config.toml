@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Portfolio 2022ish"
 
-sectionPagesMenu = "main"
+sectionPagesMenu = "auto"
 
 themesDir = "themes"
 theme = "lovely"
