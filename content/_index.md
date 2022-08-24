@@ -1,12 +1,19 @@
 ---
 title: "The works of WillStall"
-subtitle: ""
+subtitle: "Bomb-ass,'yet' dipshit-cool; thang"
 date: 2022-08-19T13:33:40-04:00
 draft: true
 ---
+## Hey Christy
+wasup chris?
+
+# Kate's *List*
+- Irem
+- asdasda
+- asdsa
 
 # Need to start with something **big and flashy**
-- What about showing off works-in-progress of Subtle?
+- ~~What about showing off works-in-progress of Subtle?~~ Show off Subtle in an *'Upcoming'* Section
 - Could show off a still or video from one of my most recent series? *What series?*
 ![Amazing Fuckin Image](url)
 
