@@ -293,11 +293,11 @@ th, td {
 }
 
 /* floating img */
-/* main img{
+main img{
     float:right;
     clear:both;
     padding: 1.0em;
-} */
+}
 
 blockquote
 {
@@ -311,16 +311,3 @@ blockquote
 }
 
 /* Fade everything on a successful click to white. This will make it feel slick w/o needed any 'ajax' */
-
-
-/* images partials */
-.img_inline
-{
-    float:right;
-    clear:both;
-    padding: 1.0em;
-}
-.img_full img
-{
-    width:100%;
-}

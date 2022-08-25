@@ -6,10 +6,37 @@ draft: true
 ---
 
 # Todo
-- [ ] Pick the flash thing for the homepage
-- [ ] Pick your first article
+- [x] ~~Pick the flash thing for the homepage~~ *Featureless Series*
+- [ ] Render our high-resolution *Featureless* Series w/ screenshots
+- [ ] Create first 'series' for *Featureless* 
+- [x] ~~Pick your first article~~ A Subtle Introduction
 - [ ] Write your first article
 
+
+---
+AR Input explorations as it relates to smart-glasses.
+
+horizon team - metavision focus, online gaming-social networking team
+avatars team
+
+'Specifically, our team is the interaction model team for future AR devices.'
+
+#### Interview Process is standardize, so you are interviewing for multiple roles.
+- 2 Step Process - Past work presentation ( could be under NDA etc )
+- Technical Focus - 3 Areas. Project Overview. Ar/Vr general coding and specialization. Physics/Shaders Optimization etc. How to implement 2d/3d animations. General Coding Platform c# in unity. Link will be sent prior to understand the platform and product.
+
+2 Hiring Managers. Who does Dan work with? 4 Roles. Leveling Process. Location. How you interview. Years of Experience. Level dictates salary range.
+
+
+# Elevator Pitch *for a good job*
+I'm looking for a company that is product-driven, can challenge me, has a good team, and is at the forefront of technology. 
+
+
+I'm looking for a company building innovative products where I can tackle challenging problems alongside an world-class team. It's not enough to make a usable product. I need to make a lovable product.
+
+Making usable products is not enough for me. My passion is making lovable products
+
+-'just look for these companies', don't say it. A pure bonus...if this is in the category of games, design, art,shaders, or truly helps of shapes the future.
 
 # Need to start with something **big and flashy**
 - ~~What about showing off works-in-progress of Subtle?~~ Show off Subtle in an *'Upcoming'* Section

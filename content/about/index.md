@@ -12,7 +12,7 @@ menu: "main"
 draft: true
 ---
 
-![alt text](http://willstall.com/img/cp-logo.png)
+{{< imgs/inline "/about/cp-logo.png" >}}
 
 # **By day I work at [Cipher Prime](https://www.cipherprime.com)**, Philadelphia's *most* Philly game studio.
 	
