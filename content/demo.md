@@ -18,7 +18,10 @@ A NAUGHTY First Level Header
 ====================
 
 A SEXY Second Level Header
+
 ---------------------
+## Inline Image
+{{< imgs/inline src="/about/cp-logo.png" side="right">}}
 
 ## Highlight
 {{< highlight html >}}
@@ -36,11 +39,10 @@ A SEXY Second Level Header
 <!-- ![alt text](/about/cp-logo.png "Title") -->
 <!-- {{< figure src="/about/cp-logo.png" title="Cipher Prime Logo" class="cover">}} -->
 
-## Inline Image
-{{< imgs/inline "/about/cp-logo.png" >}}
+
 
 ## Full Image
-{{< imgs/full "/about/cp-logo.png" >}}
+{{< imgs/full src="/about/cp-logo.png" >}}
 
 ## Cover Image
 

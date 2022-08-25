@@ -1,3 +1,4 @@
-<figure class="img_inline">
-    <img src="{{ .Get 0 }}"/>
+{{ $class := or (.Get "side")  "" }}
+<figure class="img_inline{{ $class }}">
+    <img src="{{ or (.Get 0) (.Get `src`) }}"/>
 </figure>
