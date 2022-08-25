@@ -4,13 +4,12 @@ date: 2022-08-19T13:33:40-04:00
 menu: "main"
 draft: true
 ---
-## Hey Christy
-wasup chris?
 
-# Kate's *List*
-- Irem
-- asdasda
-- asdsa
+# Todo
+- [ ] Pick the flash thing for the homepage
+- [ ] Pick your first article
+- [ ] Write your first article
+
 
 # Need to start with something **big and flashy**
 - ~~What about showing off works-in-progress of Subtle?~~ Show off Subtle in an *'Upcoming'* Section
@@ -33,5 +32,7 @@ Let's show 3 of the series for now
 
 
 # Alternative Strategy for the Homepage. Why not just use what you currently have with a cool ass header?
+~~Fine. W/e. What would that header be?~~ **Article about Subtle on AB**
 
-
+### Math for weekly wage
+120k per year is 2307 a week. Weekly Rate needs to be 2k.

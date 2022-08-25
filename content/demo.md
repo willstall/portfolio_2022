@@ -15,6 +15,8 @@ draft: true
 - [ ] Update the website
 - [ ] Contact the media
 
+## Img w/ different class
+![cipher prime logo](http://willstall.com/img/cp-logo.png){#fullscreen-img}
 
 [^1]: This is the footnote.
 [^2]: This is the footnote.
