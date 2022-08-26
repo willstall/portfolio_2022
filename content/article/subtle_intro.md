@@ -8,4 +8,13 @@ draft: true
 ---
 
 # A Subtle Introduction
-Let's start outlining the introduction for the series here
+
+# General Outline
+- 
+
+
+## Checklist
+- [ ] Outline Article
+- [ ] Add Images
+- [ ] Proof
+- [ ] Release
