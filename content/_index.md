@@ -12,8 +12,6 @@ cover:
 # I'm [willstall](http://instagram.com/willstall), a **designer, engineer, and collaborator.** I make cool stuff, *really cool stuff*, using mixed medium technology.[^1]
 [^1]: **Mixed Medium Technology** - both digital and non-digital formats. ex: Unity3d , Light Sculptures, TouchDesigner , Interactive Installations, Web, Robotics...
 
-______________________________
-
 {{< placeholder "Subtle Image" >}}
 
 ## Let's do something with the **[subtle](/article/subtle_intro/)** series here
@@ -25,4 +23,4 @@ This doesn't have to be massive. What if we just write a simple article that int
 - What it means to be Subtle ( *an origin story* )
 
 ## Talk about my weekly shader series, generative art, and [30 Days of Shade]()
-> Follow **[@willstall](http://instagram.com/willstall) on Instagram** to stay up-to-date on my *current shader series* and *generative art*
+> Follow **[@willstall](http://instagram.com/willstall) on Instagram** to stay up-to-date on my *weekly shader series*

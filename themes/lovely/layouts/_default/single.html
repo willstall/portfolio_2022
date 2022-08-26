@@ -7,27 +7,29 @@
 {{ define "main" }}
 <!-- <h1>{{ .Title }}</h1> -->
 <!-- {{ partial "metadata.html" . }} -->
-
-<div>
+<!-- <div> -->
+    <div class="homepage-content">
+        {{.Content}}
+      </div>
+<!-- </div> -->
+<!-- <div>
     <section>
-        {{ .Content }}
         {{ partial "sections.html" . }}
     </section>
-</div>
-
-<div>
-    <!-- <h2>Quick Links</h2> -->
+</div> -->
+<!-- <h2>Quick Links</h2> -->
+<!-- <div>
     <aside>
         {{ .TableOfContents }}
     </aside>
-</div>
+</div> -->
 
-{{ .Section }}
+<!-- {{ .Section }}
 <ul>
     {{ range .Pages }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }}
-</ul>
+</ul> -->
 
 <!-- {{ partial "taxonomies.html" . }} -->
 {{ end }}
