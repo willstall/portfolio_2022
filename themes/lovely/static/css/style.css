@@ -316,15 +316,15 @@ blockquote
 /* images partials */
 .img_inline, .img_inlineright
 {
-    float:right;
-    clear:both;
     padding: 1.0em;
+    clear:both;
+    float:right;
 }
 .img_inlineleft
 {
+    padding: 1.0em;    
     float:left;
     clear:both;
-    padding: 1.0em;    
 }
 .img_full img
 {

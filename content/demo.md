@@ -14,14 +14,15 @@ draft: true
 - [ ] Update the website
 - [ ] Contact the media
 
+## Inline Image
+{{< imgs/inline src="/about/cp-logo.png" side="right">}}
+
 A NAUGHTY First Level Header
 ====================
 
 A SEXY Second Level Header
 
 ---------------------
-## Inline Image
-{{< imgs/inline src="/about/cp-logo.png" side="right">}}
 
 ## Highlight
 {{< highlight html >}}

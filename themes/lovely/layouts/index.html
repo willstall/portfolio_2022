@@ -1,7 +1,14 @@
 {{ define "cover" }}
-    <div id="cover">      
-      <h1>{{ .Params.subtitle }}</h1>
-    </div>
+{{ with .Params.Cover }}
+<div id="cover">      
+  {{ if .Link }}<a href="{{ .Site.BaseURL }}{{ (urls.Parse .Link).Path }}">{{ end }}
+    <figure>
+      {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+      {{ if .Image }}<img src="{{ .Image }}"/>{{ end }}
+    </figure>
+  {{ if .Link }}</a>{{ end }}
+</div>
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
