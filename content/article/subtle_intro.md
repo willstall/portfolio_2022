@@ -22,15 +22,20 @@ Mostly, I needed to create my own world.
 
 
 ## AGAINNNNNN
+All people should be considered equal and they should all be allowed active agency on thier own lives.
+
+
+There are two things that are important to me, people having the right to make choices in their lives and being about to love each other and themselves and creating things that can help others and give back to the world. It was a Friday, a day that many people saw coming, but hit me particularly hard as I was wrapped up in my own identity crisis and struggling with the purpose of my daily efforts.  This self doubt coupled with the sudden loss of this choice for millions of Americans became the fuel for the fire that evolved into the 'Subtle' long-form series.
+
+## Another?
+It was a Friday night –(DATE) to be specific. For myself, and an enormous amount of people in the United States, it was a day of mourning. The sudden loss of women’s reproductive rights coupled with my own special grade of identity crisis and self doubt was the fuel for the fire that later became the Subtle long-form series.
 
 {{< placeholder "Image" >}}
 
 # A Subtle Introduction
  Creating art in all forms, has been my therapy. 
  
- It was a friday night; (DATE) to be specific. For a lot of people in the US, this was what I'd call a pretty shitty day (I believe this to be an understatement). The sudden loss of womans' reproductive rights coupled with my own special grade of identity crisis and self doubt was the fuel for the fire that later became the Subtle long-form series.
-
-There are two things that are important to me, people having the right to make choices in their lives and being about to love each other and themselves and creating things that can help others and give back to the world. It was a Friday, a day that many people saw coming, but hit me particularly hard as I was wrapped up in my own identity crisis and struggling with the purpose of my daily efforts.  This self doubt coupled with the sudden loss of this choice for millions of Americans became the fuel for the fire that evolved into the 'Subtle' long-form series.
+ It was a Friday night; (DATE) to be specific. For a lot of people in the US this was what I'd call a pretty shitty day (I believe this to be an understatement). The sudden loss of womans' reproductive rights coupled with my own special grade of identity crisis and self doubt was the fuel for the fire that later became the Subtle long-form series.
 
  In 2008, I met a friend at a party and created a small but acclaimed game studio called Cipher Prime. It was an exhilarating and scary time, but I felt alive and vibrating with creative energy and ambition. A dozen awards, games, and years later, my co-founder Dain and I made the decision to no longer create games together. Near the end of our studio's life, we did an art show called,'[We've Traveled So Far]()' with gorgeous art inspired by our first game 'Auditorium.' I loved this art show and it was something I felt only we could create. Then, as it ended, I was suddenly adrift.  The world I had created for myself professionally was behind me and I was chasing my own shadow and comparing myself to the incredible things that my business partner and I created. I began searching for what could be next.
 
@@ -40,5 +45,7 @@ I changed these daily postings to a series of 3 pieces a week that combined conc
 
 On that particular Friday, in a complete fit of melancholy and despair, I challenged myself to be a version of my old self. I wanted to feel alive again with creative energy and purpose. I needed to know that I wasn't just chasing a shadow, I needed to know that I'd grown. I needed to know I could still make beautiful things. I needed to reflect on what had just happened.
 
-Mostly, I needed to escape create my own world.
+Mostly, I needed to escape to a world of impossible beauty, impossible existence, and impossible possibilities.
+
+
 
