@@ -15,7 +15,7 @@ draft: true
 - [ ] Contact the media
 
 ## Inline Image
-{{< imgs/inline src="/about/cp-logo.png" side="right">}}
+{{< figure src="/about/cp-logo.png" >}}
 
 A NAUGHTY First Level Header
 ====================
@@ -43,7 +43,7 @@ A SEXY Second Level Header
 
 
 ## Full Image
-{{< imgs/full src="/about/cp-logo.png" >}}
+{{< figure src="/about/cp-logo.png" >}}
 
 ## Cover Image
 

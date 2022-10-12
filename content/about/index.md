@@ -12,7 +12,7 @@ menu: "main"
 draft: true
 ---
 
-{{< imgs/inline "/about/cp-logo.png" >}}
+{{< figure src="/about/cp-logo.png" >}}
 
 # **By day I work at [Cipher Prime](https://www.cipherprime.com)**, Philadelphia's *most* Philly game studio.
 	

@@ -5,9 +5,27 @@ title = "Portfolio 2022ish"
 sectionPagesMenu = "auto"
 
 themesDir = "themes"
-theme = "lovely"
+theme = "hugo-winston-theme"
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [taxonomies]
 category = "categories"
 series = "series"
 tag = "tags"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@zerostaticio"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+  addDot = true
+  addFrame = true
+  highlightColor = '#7b16ff'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  dotColor = "#7b16ff"
+  headingColor = "#1c1b1d"
+  textColor = "#4e5157"
